@@ -1,0 +1,2128 @@
+{
+    "graphConfig": [
+        [
+            {
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 0
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "debug[0]",
+                        "smoothing": 0
+                    },
+                    {
+                        "color": "#bebada",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "gyroADC[0]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#b3de69",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 0
+                        },
+                        "grid": true,
+                        "lineWidth": 2,
+                        "name": "rcCommands[0]",
+                        "smoothing": 0
+                    }
+                ],
+                "height": 1,
+                "label": "Roll"
+            },
+            {
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 0
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "debug[1]",
+                        "smoothing": 0
+                    },
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "gyroADC[1]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#b3de69",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 0
+                        },
+                        "grid": false,
+                        "lineWidth": 2,
+                        "name": "rcCommands[1]",
+                        "smoothing": 0
+                    }
+                ],
+                "height": 1,
+                "label": "Pitch"
+            },
+            {
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 0
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "debug[2]",
+                        "smoothing": 0
+                    },
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "gyroADC[2]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#b3de69",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 0
+                        },
+                        "grid": true,
+                        "lineWidth": 2,
+                        "name": "rcCommands[2]",
+                        "smoothing": 0
+                    }
+                ],
+                "height": 1,
+                "label": "Yaw"
+            },
+            {
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisP[0]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisP[1]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#ffffb3",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "axisP[2]",
+                        "smoothing": 3000
+                    }
+                ],
+                "height": 1,
+                "label": "Pterm"
+            },
+            {
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisD[0]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "axisD[1]",
+                        "smoothing": 3000
+                    }
+                ],
+                "height": 1,
+                "label": "Dterm"
+            }
+        ],
+        [
+            {
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 0
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "rcCommands[0]",
+                        "smoothing": 0
+                    },
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 0
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "rcCommands[1]",
+                        "smoothing": 0
+                    },
+                    {
+                        "color": "#ffffb3",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 0
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "rcCommands[2]",
+                        "smoothing": 0
+                    },
+                    {
+                        "color": "#bebada",
+                        "curve": {
+                            "inputRange": 50,
+                            "offset": -50,
+                            "outputRange": 1,
+                            "power": 1
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 0
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "rcCommands[3]",
+                        "smoothing": 0
+                    }
+                ],
+                "height": 1,
+                "label": "RC Rates"
+            },
+            {
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 0
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "debug[0]",
+                        "smoothing": 0
+                    },
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 0
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "debug[1]",
+                        "smoothing": 0
+                    },
+                    {
+                        "color": "#ffffb3",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 0
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "debug[2]",
+                        "smoothing": 0
+                    },
+                    {
+                        "color": "#bebada",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 0
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "debug[3]",
+                        "smoothing": 0
+                    }
+                ],
+                "height": 1,
+                "label": "Debug Mode"
+            },
+            {
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 3000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "gyroADC[0]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "gyroADC[1]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#ffffb3",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "gyroADC[2]",
+                        "smoothing": 3000
+                    }
+                ],
+                "height": 1,
+                "label": "Gyros"
+            },
+            {
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 3000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "axisError[0]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisError[1]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#ffffb3",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisError[2]",
+                        "smoothing": 3000
+                    }
+                ],
+                "height": 1,
+                "label": "PID Error"
+            },
+            {
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "axisP[0]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisP[1]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#ffffb3",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisP[2]",
+                        "smoothing": 3000
+                    }
+                ],
+                "height": 1,
+                "label": "P Term"
+            },
+            {
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisI[0]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisI[1]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#ffffb3",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "axisI[2]",
+                        "smoothing": 3000
+                    }
+                ],
+                "height": 1,
+                "label": "I Term"
+            },
+            {
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "axisD[0]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisD[1]",
+                        "smoothing": 3000
+                    }
+                ],
+                "height": 1,
+                "label": "D Term"
+            },
+            {
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 954.5,
+                            "offset": -1092.5,
+                            "outputRange": 1,
+                            "power": 1
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 1,
+                            "smoothing": 5000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "motor[0]",
+                        "smoothing": 5000
+                    },
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 954.5,
+                            "offset": -1092.5,
+                            "outputRange": 1,
+                            "power": 1
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 1,
+                            "smoothing": 5000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "motor[1]",
+                        "smoothing": 5000
+                    },
+                    {
+                        "color": "#ffffb3",
+                        "curve": {
+                            "inputRange": 954.5,
+                            "offset": -1092.5,
+                            "outputRange": 1,
+                            "power": 1
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 1,
+                            "smoothing": 5000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "motor[2]",
+                        "smoothing": 5000
+                    },
+                    {
+                        "color": "#bebada",
+                        "curve": {
+                            "inputRange": 954.5,
+                            "offset": -1092.5,
+                            "outputRange": 1,
+                            "power": 1
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 1,
+                            "smoothing": 5000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "motor[3]",
+                        "smoothing": 5000
+                    }
+                ],
+                "height": 1,
+                "label": "Motors"
+            }
+        ],
+        [
+            {
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 600,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.8
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.8,
+                            "smoothing": 0
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "rcCommand[0]",
+                        "smoothing": 0
+                    },
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 600,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.8
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.8,
+                            "smoothing": 0
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "rcCommand[1]",
+                        "smoothing": 0
+                    },
+                    {
+                        "color": "#ffffb3",
+                        "curve": {
+                            "inputRange": 600,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.8
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.8,
+                            "smoothing": 0
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "rcCommand[2]",
+                        "smoothing": 0
+                    },
+                    {
+                        "color": "#bebada",
+                        "curve": {
+                            "inputRange": 500,
+                            "offset": -1500,
+                            "outputRange": 1,
+                            "power": 1
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 1,
+                            "smoothing": 0
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "rcCommand[3]",
+                        "smoothing": 0
+                    }
+                ],
+                "height": 1,
+                "label": "RC Command"
+            },
+            {
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "axisP[0]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisI[0]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#ffffb3",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisD[0]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#bebada",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "gyroADC[0]",
+                        "smoothing": 3000
+                    }
+                ],
+                "height": 1,
+                "label": "Gyro + PID roll"
+            },
+            {
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "axisP[1]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisI[1]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#ffffb3",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisD[1]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#bebada",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "gyroADC[1]",
+                        "smoothing": 3000
+                    }
+                ],
+                "height": 1,
+                "label": "Gyro + PID pitch"
+            },
+            {
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisP[2]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisI[2]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#bebada",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 3000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "gyroADC[2]",
+                        "smoothing": 3000
+                    }
+                ],
+                "height": 1,
+                "label": "Gyro + PID yaw"
+            },
+            {
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisSum[0]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisSum[1]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#ffffb3",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "axisSum[2]",
+                        "smoothing": 3000
+                    }
+                ],
+                "height": 1,
+                "label": "PIDs"
+            }
+        ],
+        [
+            {
+                "height": 1,
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "axisP[0]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#ffffb3",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisD[0]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#bebada",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 2,
+                        "name": "axisError[0]",
+                        "smoothing": 3000
+                    }
+                ],
+                "label": "Error + P/D roll"
+            },
+            {
+                "height": 1,
+                "fields": [
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "axisP[1]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#ffffb3",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisD[1]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#bebada",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 2,
+                        "name": "axisError[1]",
+                        "smoothing": 3000
+                    }
+                ],
+                "label": "Error + P/D pitch"
+            },
+            {
+                "height": 1,
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "axisSum[0]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisSum[1]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#ffffb3",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisSum[2]",
+                        "smoothing": 3000
+                    }
+                ],
+                "label": "PID Sums"
+            }
+        ],
+        [],
+        [],
+        [
+            {
+                "fields": [
+                    {
+                        "name": "axisError[0]",
+                        "smoothing": 3000,
+                        "curve": {
+                            "power": 0.25,
+                            "outputRange": 1,
+                            "offset": 0,
+                            "inputRange": 1199.9999999999998
+                        },
+                        "default": {
+                            "smoothing": 3000,
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "color": "#fb8072",
+                        "lineWidth": 1,
+                        "grid": true
+                    }
+                ],
+                "height": 1,
+                "label": "PID Error"
+            },
+            {
+                "fields": [
+                    {
+                        "name": "axisP[0]",
+                        "smoothing": 3000,
+                        "curve": {
+                            "power": 0.3,
+                            "outputRange": 1,
+                            "offset": 0,
+                            "inputRange": 1000
+                        },
+                        "default": {
+                            "smoothing": 3000,
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "color": "#fb8072",
+                        "lineWidth": 1,
+                        "grid": true
+                    },
+                    {
+                        "name": "axisI[0]",
+                        "smoothing": 3000,
+                        "curve": {
+                            "power": 0.3,
+                            "outputRange": 1,
+                            "offset": 0,
+                            "inputRange": 1000
+                        },
+                        "default": {
+                            "smoothing": 3000,
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "color": "#8dd3c7",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "axisD[0]",
+                        "smoothing": 3000,
+                        "curve": {
+                            "power": 0.3,
+                            "outputRange": 1,
+                            "offset": 0,
+                            "inputRange": 1000
+                        },
+                        "default": {
+                            "smoothing": 3000,
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "color": "#ffffb3",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "gyroADC[0]",
+                        "smoothing": 3000,
+                        "curve": {
+                            "power": 0.25,
+                            "outputRange": 1,
+                            "offset": 0,
+                            "inputRange": 1199.9999999999998
+                        },
+                        "default": {
+                            "smoothing": 3000,
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "color": "#bebada",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "debug[0]",
+                        "smoothing": 0,
+                        "curve": {
+                            "power": 0.25,
+                            "outputRange": 1,
+                            "offset": 0,
+                            "inputRange": 1199.9999999999998
+                        },
+                        "default": {
+                            "smoothing": 0,
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "color": "#bc80bd",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "rcCommands[0]",
+                        "smoothing": 0,
+                        "curve": {
+                            "power": 0.25,
+                            "outputRange": 1,
+                            "offset": 0,
+                            "inputRange": 1199.9999999999998
+                        },
+                        "default": {
+                            "smoothing": 0,
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "color": "#b3de69",
+                        "lineWidth": 2,
+                        "grid": false
+                    },
+                    {
+                        "name": "axisF[0]",
+                        "smoothing": 3000,
+                        "curve": {
+                            "power": 0.3,
+                            "outputRange": 1,
+                            "offset": 0,
+                            "inputRange": 1000
+                        },
+                        "default": {
+                            "smoothing": 3000,
+                            "power": 0.3,
+                            "outputRange": 1
+                        },
+                        "color": "#fdb462",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "debug[0]",
+                        "smoothing": 0,
+                        "curve": {
+                            "power": 0.25,
+                            "outputRange": 1,
+                            "offset": 0,
+                            "inputRange": 1199.9999999999998
+                        },
+                        "default": {
+                            "smoothing": 0,
+                            "power": 0.25,
+                            "outputRange": 1
+                        },
+                        "color": "#fccde5",
+                        "lineWidth": 1,
+                        "grid": false
+                    }
+                ],
+                "height": 1,
+                "label": "Gyro + PID roll"
+            },
+            {
+                "fields": [
+                    {
+                        "name": "motor[0]",
+                        "smoothing": 5000,
+                        "curve": {
+                            "power": 1,
+                            "outputRange": 1,
+                            "offset": -1092.5,
+                            "inputRange": 954.5
+                        },
+                        "default": {
+                            "smoothing": 5000,
+                            "power": 1,
+                            "outputRange": 1
+                        },
+                        "color": "#fb8072",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "motor[1]",
+                        "smoothing": 5000,
+                        "curve": {
+                            "power": 1,
+                            "outputRange": 1,
+                            "offset": -1092.5,
+                            "inputRange": 954.5
+                        },
+                        "default": {
+                            "smoothing": 5000,
+                            "power": 1,
+                            "outputRange": 1
+                        },
+                        "color": "#8dd3c7",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "motor[2]",
+                        "smoothing": 5000,
+                        "curve": {
+                            "power": 1,
+                            "outputRange": 1,
+                            "offset": -1092.5,
+                            "inputRange": 954.5
+                        },
+                        "default": {
+                            "smoothing": 5000,
+                            "power": 1,
+                            "outputRange": 1
+                        },
+                        "color": "#ffffb3",
+                        "lineWidth": 1,
+                        "grid": false
+                    },
+                    {
+                        "name": "motor[3]",
+                        "smoothing": 5000,
+                        "curve": {
+                            "power": 1,
+                            "outputRange": 1,
+                            "offset": -1092.5,
+                            "inputRange": 954.5
+                        },
+                        "default": {
+                            "smoothing": 5000,
+                            "power": 1,
+                            "outputRange": 1
+                        },
+                        "color": "#bebada",
+                        "lineWidth": 1,
+                        "grid": false
+                    }
+                ],
+                "height": 1,
+                "label": "Motors"
+            }
+        ],
+        [
+            {
+                "fields": [
+                    {
+                        "color": "#ffffb3",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 3000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "axisError[2]",
+                        "smoothing": 3000
+                    }
+                ],
+                "height": 1,
+                "label": "PID Error"
+            },
+            {
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisP[2]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisI[2]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#bebada",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "gyroADC[2]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#bc80bd",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 0
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "debug[2]",
+                        "smoothing": 0
+                    },
+                    {
+                        "color": "#b3de69",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 0
+                        },
+                        "grid": false,
+                        "lineWidth": 2,
+                        "name": "rcCommands[2]",
+                        "smoothing": 0
+                    },
+                    {
+                        "color": "#fdb462",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "axisF[2]",
+                        "smoothing": 3000
+                    }
+                ],
+                "height": 1,
+                "label": "Gyro + PID yaw"
+            },
+            {
+                "fields": [
+                    {
+                        "color": "#ffffb3",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "axisSum[2]",
+                        "smoothing": 3000
+                    }
+                ],
+                "height": 1,
+                "label": "PIDs"
+            }
+        ],
+        [
+            {
+                "fields": [
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 3000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "axisError[1]",
+                        "smoothing": 3000
+                    }
+                ],
+                "height": 1,
+                "label": "PID Error"
+            },
+            {
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisP[1]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisI[1]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#ffffb3",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisD[1]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#bebada",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "gyroADC[1]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#bc80bd",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 0
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "debug[1]",
+                        "smoothing": 0
+                    },
+                    {
+                        "color": "#b3de69",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 0
+                        },
+                        "grid": false,
+                        "lineWidth": 2,
+                        "name": "rcCommands[1]",
+                        "smoothing": 0
+                    },
+                    {
+                        "color": "#fdb462",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "axisF[1]",
+                        "smoothing": 3000
+                    }
+                ],
+                "height": 1,
+                "label": "Gyro + PID pitch"
+            },
+            {
+                "fields": [
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "axisSum[1]",
+                        "smoothing": 3000
+                    }
+                ],
+                "height": 1,
+                "label": "PIDs"
+            }
+        ],
+        [
+            {
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1.0000000000000187,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 3000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "axisError[0]",
+                        "smoothing": 3000
+                    }
+                ],
+                "height": 1,
+                "label": "PID Error"
+            },
+            {
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 0.9999999999999999,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "axisP[0]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#8dd3c7",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisI[0]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#ffffb3",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisD[0]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#bebada",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "gyroADC[0]",
+                        "smoothing": 3000
+                    },
+                    {
+                        "color": "#bc80bd",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 0
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "debug[0]",
+                        "smoothing": 0
+                    },
+                    {
+                        "color": "#b3de69",
+                        "curve": {
+                            "inputRange": 1199.9999999999998,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.25
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.25,
+                            "smoothing": 0
+                        },
+                        "grid": false,
+                        "lineWidth": 2,
+                        "name": "rcCommands[0]",
+                        "smoothing": 0
+                    },
+                    {
+                        "color": "#fdb462",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": false,
+                        "lineWidth": 1,
+                        "name": "axisF[0]",
+                        "smoothing": 3000
+                    }
+                ],
+                "height": 1,
+                "label": "Gyro + PID roll"
+            },
+            {
+                "fields": [
+                    {
+                        "color": "#fb8072",
+                        "curve": {
+                            "inputRange": 1000,
+                            "offset": 0,
+                            "outputRange": 1,
+                            "power": 0.3
+                        },
+                        "default": {
+                            "outputRange": 1,
+                            "power": 0.3,
+                            "smoothing": 3000
+                        },
+                        "grid": true,
+                        "lineWidth": 1,
+                        "name": "axisSum[0]",
+                        "smoothing": 3000
+                    }
+                ],
+                "height": 1,
+                "label": "PIDs"
+            }
+        ]
+    ]
+}

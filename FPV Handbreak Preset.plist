@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist>
+  <array>
+    <dict>
+      <key>AudioList</key>
+      <array>
+        <dict>
+          <key>AudioBitrate</key>
+          <string>160</string>
+          <key>AudioEncoder</key>
+          <string>AAC (faac)</string>
+          <key>AudioMixdown</key>
+          <string>Dolby Pro Logic II</string>
+          <key>AudioSamplerate</key>
+          <string>Auto</string>
+          <key>AudioTrack</key>
+          <integer>1</integer>
+          <key>AudioTrackDRCSlider</key>
+          <real>0</real>
+          <key>AudioTrackDescription</key>
+          <string>Unknown</string>
+          <key>AudioTrackGainSlider</key>
+          <real>0</real>
+        </dict>
+      </array>
+      <key>AudioAllowAACPass</key>
+      <integer>1</integer>
+      <key>AudioAllowAC3Pass</key>
+      <integer>1</integer>
+      <key>AudioAllowDTSHDPass</key>
+      <integer>1</integer>
+      <key>AudioAllowDTSPass</key>
+      <integer>1</integer>
+      <key>AudioAllowMP3Pass</key>
+      <integer>1</integer>
+      <key>AudioEncoderFallback</key>
+      <string>AC3 (ffmpeg)</string>
+      <key>ChapterMarkers</key>
+      <integer>1</integer>
+      <key>Default</key>
+      <integer>0</integer>
+      <key>FileFormat</key>
+      <string>MP4 file</string>
+      <key>Folder</key>
+      <false />
+      <key>Mp4HttpOptimize</key>
+      <integer>1</integer>
+      <key>Mp4LargeFile</key>
+      <integer>0</integer>
+      <key>Mp4iPodCompatible</key>
+      <integer>0</integer>
+      <key>PictureAutoCrop</key>
+      <integer>1</integer>
+      <key>PictureBottomCrop</key>
+      <integer>0</integer>
+      <key>PictureDeblock</key>
+      <integer>4</integer>
+      <key>PictureDecomb</key>
+      <integer>0</integer>
+      <key>PictureDecombCustom</key>
+      <string />
+      <key>PictureDecombDeinterlace</key>
+      <integer>1</integer>
+      <key>PictureDeinterlace</key>
+      <integer>0</integer>
+      <key>PictureDeinterlaceCustom</key>
+      <string />
+      <key>PictureDenoise</key>
+      <integer>0</integer>
+      <key>PictureDenoiseCustom</key>
+      <string />
+      <key>PictureDetelecine</key>
+      <integer>0</integer>
+      <key>PictureDetelecineCustom</key>
+      <string />
+      <key>PictureHeight</key>
+      <integer>0</integer>
+      <key>PictureKeepRatio</key>
+      <integer>0</integer>
+      <key>PictureLeftCrop</key>
+      <integer>0</integer>
+      <key>PictureModulus</key>
+      <integer>2</integer>
+      <key>PicturePAR</key>
+      <integer>2</integer>
+      <key>PictureRightCrop</key>
+      <integer>0</integer>
+      <key>PictureTopCrop</key>
+      <integer>0</integer>
+      <key>PictureWidth</key>
+      <integer>0</integer>
+      <key>PresetBuildNumber</key>
+      <string>2013052900</string>
+      <key>PresetDescription</key>
+      <string>No Description</string>
+      <key>PresetName</key>
+      <string>FPV-DVR</string>
+      <key>Type</key>
+      <integer>1</integer>
+      <key>UsesMaxPictureSettings</key>
+      <integer>1</integer>
+      <key>UsesPictureFilters</key>
+      <integer>1</integer>
+      <key>UsesPictureSettings</key>
+      <integer>2</integer>
+      <key>VideoAvgBitrate</key>
+      <string />
+      <key>VideoEncoder</key>
+      <string>H.264 (x264)</string>
+      <key>VideoFramerate</key>
+      <string>Same as source</string>
+      <key>VideoFramerateMode</key>
+      <string>vfr</string>
+      <key>VideoGrayScale</key>
+      <integer>0</integer>
+      <key>VideoQualitySlider</key>
+      <real>30</real>
+      <key>h264Level</key>
+      <string>4.0</string>
+      <key>x264OptionExtra</key>
+      <string />
+      <key>x264Preset</key>
+      <string>veryfast</string>
+      <key>h264Profile</key>
+      <string>main</string>
+      <key>x264Tune</key>
+      <string>none</string>
+      <key>x264UseAdvancedOptions</key>
+      <integer>0</integer>
+      <key>VideoQualityType</key>
+      <integer>2</integer>
+      <key>VideoTargetSize</key>
+      <string />
+      <key>VideoTurboTwoPass</key>
+      <integer>0</integer>
+      <key>VideoTwoPass</key>
+      <integer>0</integer>
+      <key>x264Option</key>
+      <string />
+    </dict>
+  </array>
+</plist>
